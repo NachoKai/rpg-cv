@@ -115,3 +115,31 @@ footer {
     height: auto;
   }
 }
+
+.rpgui-icon {
+  width: 75px;
+  height: 75px;
+  color: #fff;
+  word-wrap: break-word;
+  font-size: 0.6rem;
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tecnologias {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: baseline;
+  text-align: center;
+}
+
+.tec {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
