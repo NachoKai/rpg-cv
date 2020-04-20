@@ -193,3 +193,17 @@ footer {
 .proyecto-container:hover img {
   transform: translateX(100%);
 }
+
+.rpgui-dropdown-imp {
+  ul {
+    height: 200px !important;
+  }
+}
+
+.mas-info {
+  color: #ffff00;
+
+  &__titulo {
+    text-decoration: underline;
+  }
+}

@@ -248,3 +248,15 @@ footer {
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
 }
+
+.rpgui-dropdown-imp ul {
+  height: 200px !important;
+}
+
+.mas-info {
+  color: #ffff00;
+}
+
+.mas-info__titulo {
+  text-decoration: underline;
+}
