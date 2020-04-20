@@ -45,6 +45,7 @@ del {
 }
 
 .subtitle {
+  text-decoration: underline;
   color: #d27d2c !important;
   font-size: 1.1rem !important;
   text-shadow: -2px 0 black, 0 2px black, 4px 0 black, 0 -2px black !important;
@@ -102,6 +103,15 @@ footer {
 .boton {
   text-align: center;
   margin-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .perfil-txt::first-letter {
@@ -177,4 +187,64 @@ footer {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.proyecto-container {
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #000;
+  margin: 0.5rem;
+}
+
+.proyecto-container img {
+  width: 100%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: #000;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.caption h1 {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.caption p {
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.proyecto-container:hover .caption {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.proyecto-container:hover img {
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
 }

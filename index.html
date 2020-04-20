@@ -23,7 +23,21 @@
 
   <body>
     <div class="content rpgui-content">
-      <div class="container rpgui-container framed-golden">
+      <img
+        src="img/skelly-rip.png"
+        style="
+          position: absolute;
+          display: inline-block;
+          width: 70px;
+          left: 0px;
+          bottom: 0px;
+          transform: scaleX(-1);
+        "
+      />
+      <div
+        class="container rpgui-container framed-golden"
+        style="width: 100vw;"
+      >
         <h1 class="title">Juan Ignacio Caiafa</h1>
 
         <div
@@ -38,16 +52,6 @@
           />
         </div>
 
-        <div class="boton">
-          <a
-            style="line-height: 4.5;"
-            class="rpgui-button"
-            href="img/Juan Ignacio Caiafa CV.pdf"
-            download
-            >DESCARGAR CV!</a
-          >
-        </div>
-
         <div class="perfil">
           <div class="rpgui-container framed">
             <h2 class="subtitle">Perfil</h2>
@@ -59,26 +63,39 @@
           </div>
         </div>
 
+        <div class="boton">
+          <img src="img/skelly2.png" alt="Esqueleto" style="height: 70px;" />
+          <a
+            style="line-height: 4.5;"
+            class="rpgui-button"
+            href="img/Juan Ignacio Caiafa CV.pdf"
+            download
+            >DESCARGAR CV!</a
+          >
+          <img src="img/skelly.png" style="height: 70px;" />
+        </div>
+
         <hr class="hr golden" />
 
         <div class="experiencia">
           <div class="rpgui-container framed-golden-2">
             <h3 class="subsub-title">Experiencia</h3>
-            <input
-              class="rpgui-radio"
-              name="radio"
-              value="1"
-              checked
-              type="radio"
-            />
             <p>
-              <input class="rpgui-radio" type="radio" value="some val" /><label
-                >Desarrollador Frontend Jr - Freelance - 2020/Actualidad</label
+              <input class="rpgui-radio" type="radio" checked /><label
+                >Desarrollador Frontend Jr
+                <ul>
+                  <li>Freelance</li>
+                  <li>2020/Actualidad</li>
+                </ul></label
               >
             </p>
             <p>
-              <input class="rpgui-radio" type="radio" value="some val" /><label
-                >Carpintero - Amoblamientos Parcoc - 2010/Actualidad</label
+              <input class="rpgui-radio" type="radio" /><label
+                >Carpintero
+                <ul>
+                  <li>Amoblamientos Parcoc</li>
+                  <li>2010/Actualidad</li>
+                </ul></label
               >
             </p>
           </div>
@@ -89,20 +106,29 @@
             <h3 class="subsub-title">Educación</h3>
             <p>
               <input class="rpgui-checkbox golden" type="checkbox" /><label
-                >Instituto Madero Escuela Técnica - Técnico Electromecánico -
-                2007/2009</label
+                >Instituto Madero Escuela Técnica
+                <ul>
+                  <li>Técnico Electromecánico</li>
+                  <li>2007/2009</li>
+                </ul>
+              </label>
+            </p>
+            <p>
+              <input class="rpgui-checkbox golden" type="checkbox" /><label
+                >Instituto Cambridge de Cultura Inglesa
+                <ul>
+                  <li>Begginers 1 y 2, Intermediate 1 y 2, Advanced 1 y 2</li>
+                  <li>2004/2009</li>
+                </ul></label
               >
             </p>
             <p>
               <input class="rpgui-checkbox golden" type="checkbox" /><label
-                >Instituto Cambridge de Cultura Inglesa - Begginers 1 y 2,
-                Intermediate 1 y 2, Advanced 1 y 2 - 2004/2009</label
-              >
-            </p>
-            <p>
-              <input class="rpgui-checkbox golden" type="checkbox" /><label
-                >Instituto Argentino de Computación - Programador en Lenguaje
-                Visual - 2011/2012</label
+                >Instituto Argentino de Computación
+                <ul>
+                  <li>Programador en Lenguaje Visual</li>
+                  <li>2011/2012</li>
+                </ul></label
               >
             </p>
           </div>
@@ -112,13 +138,14 @@
           <div class="rpgui-container framed-golden-2">
             <h3 class="subsub-title">Idiomas</h3>
             <p>
-              <input class="rpgui-radio" type="radio" value="some val" /><label
-                >Español Nativo</label
+              <input class="rpgui-radio" type="radio" /><label
+                >Español - Nativo</label
               >
             </p>
             <p>
-              <input class="rpgui-radio" type="radio" value="some val" /><label
-                >Inglés oral y escrito Intermedio</label
+              <input class="rpgui-radio" type="radio" /><label
+                >Inglés oral - Intermedio <br />
+                Inglès escrito - Avanzado</label
               >
             </p>
           </div>
@@ -165,11 +192,23 @@
           style="margin-bottom: 1rem;"
         >
           <h3 class="subsub-title">Proyectos</h3>
-          <div class="proyecto">
-            <img src="https://picsum.photos/300/200" alt="Proyecto 1" />
+          <div class="proyecto-container">
+            <a href="/">
+              <img src="https://picsum.photos/300/200" />
+              <div class="caption">
+                <h1>Proyecto 1</h1>
+                <p>Descripcion 1</p>
+              </div></a
+            >
           </div>
-          <div class="proyecto">
-            <img src="https://picsum.photos/300/200" alt="Proyecto 2" />
+          <div class="proyecto-container">
+            <a href="/">
+              <img src="https://picsum.photos/300/200" />
+              <div class="caption">
+                <h1>Proyecto 2</h1>
+                <p>Descripcion 2</p>
+              </div></a
+            >
           </div>
         </div>
 
@@ -193,6 +232,16 @@
 
         <footer>Hecho con <i class="nes-jp-logo"></i> por Nacho Caiafa</footer>
       </div>
+      <img
+        src="img/skelly-rip.png"
+        style="
+          position: absolute;
+          display: inline-block;
+          width: 70px;
+          right: 0px;
+          bottom: 0px;
+        "
+      />
     </div>
 
     <script src="src/main.js"></script>
