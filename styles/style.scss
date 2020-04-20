@@ -46,11 +46,14 @@ del {
 }
 
 .avatar {
+  margin: 0 auto;
+}
+
+.avatar-img:hover {
+  content: url("../img/avatar-gif.gif");
+  max-width: 424px;
   width: 100%;
   height: auto;
-  max-width: 400px;
-  padding: 0 !important;
-  text-align: center;
 }
 
 .hidden {
@@ -82,10 +85,6 @@ del {
 
 footer {
   text-align: center;
-}
-
-.avatar {
-  margin: 0 auto;
 }
 
 .boton {
