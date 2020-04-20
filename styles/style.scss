@@ -185,11 +185,13 @@ footer {
   text-transform: capitalize;
 }
 
-.proyecto-container:hover .caption {
+.proyecto-container:hover,
+.proyecto-container:active .caption {
   transform: translateX(0);
 }
 
-.proyecto-container:hover img {
+.proyecto-container:hover,
+.proyecto-container:active img {
   transform: translateX(100%);
 }
 
