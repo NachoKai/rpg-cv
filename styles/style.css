@@ -287,3 +287,8 @@ footer {
 #cypress-bar .rpgui-progress-fill {
   width: 40% !important;
 }
+
+.experiencia p,
+.educacion p {
+  margin-bottom: 0.5rem;
+}
