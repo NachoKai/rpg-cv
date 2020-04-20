@@ -263,6 +263,10 @@ footer {
   text-decoration: underline;
 }
 
+.mas-info li {
+  line-height: 2;
+}
+
 .nes-list {
   margin-left: 1rem;
 }
