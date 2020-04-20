@@ -186,12 +186,18 @@ footer {
   text-transform: capitalize;
 }
 
-.proyecto-container:hover .caption {
-  transform: translateX(0);
+.proyecto-container:hover,
+.proyecto-container:active {
+  .caption {
+    transform: translateX(0);
+  }
 }
 
-.proyecto-container:hover img {
-  transform: translateX(100%);
+.proyecto-container:hover,
+.proyecto-container:active {
+  img {
+    transform: translateX(100%);
+  }
 }
 
 .rpgui-dropdown-imp {

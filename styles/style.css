@@ -239,12 +239,14 @@ footer {
   text-transform: capitalize;
 }
 
-.proyecto-container:hover .caption {
+.proyecto-container:hover .caption,
+.proyecto-container:active .caption {
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }
 
-.proyecto-container:hover img {
+.proyecto-container:hover img,
+.proyecto-container:active img {
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
 }
