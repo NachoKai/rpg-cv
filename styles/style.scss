@@ -211,8 +211,33 @@ footer {
   margin-left: 1rem;
 }
 
-.rpgui-progress-fill {
-  .blue {
-    width: 50% !important;
+#react-bar {
+  .rpgui-progress-fill.blue {
+    width: 30% !important;
+  }
+}
+#vue-bar {
+  .rpgui-progress-fill.green {
+    width: 30% !important;
+  }
+}
+#node-bar {
+  .rpgui-progress-fill {
+    width: 40% !important;
+  }
+}
+#mongo-bar {
+  .rpgui-progress-fill {
+    width: 45% !important;
+  }
+}
+#api-bar {
+  .rpgui-progress-fill {
+    width: 70% !important;
+  }
+}
+#cypress-bar {
+  .rpgui-progress-fill {
+    width: 40% !important;
   }
 }
