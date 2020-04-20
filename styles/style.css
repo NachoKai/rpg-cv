@@ -239,14 +239,12 @@ footer {
   text-transform: capitalize;
 }
 
-.proyecto-container:hover,
-.proyecto-container:active .caption {
+.proyecto-container:hover .caption {
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }
 
-.proyecto-container:hover,
-.proyecto-container:active img {
+.proyecto-container:hover img {
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
 }
@@ -259,12 +257,12 @@ footer {
   color: #ffff00;
 }
 
-.mas-info__titulo {
-  text-decoration: underline;
-}
-
 .mas-info li {
   line-height: 2;
+}
+
+.mas-info__titulo {
+  text-decoration: underline;
 }
 
 .nes-list {
@@ -297,5 +295,5 @@ footer {
 
 .experiencia p,
 .educacion p {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0rem;
 }
