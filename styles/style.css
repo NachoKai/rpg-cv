@@ -259,3 +259,7 @@ footer {
 .mas-info__titulo {
   text-decoration: underline;
 }
+
+.nes-list {
+  margin-left: 1rem;
+}
