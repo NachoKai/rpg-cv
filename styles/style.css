@@ -302,3 +302,13 @@ footer {
 .educacion p {
   margin-bottom: 0rem;
 }
+
+.proyecto-titulo {
+  font-size: 1rem !important;
+  text-align: center;
+}
+
+.proyecto-descripcion {
+  text-align: center;
+  font-size: 0.9rem !important;
+}
