@@ -1,7 +1,4 @@
-html {
-  background-color: #222222;
-}
-
+html,
 body {
   background-color: #222222;
   height: 100vh;
@@ -51,7 +48,7 @@ del {
   text-shadow: -2px 0 black, 0 2px black, 4px 0 black, 0 -2px black !important;
 }
 
-.subsub-title {
+.subtitle-b {
   color: #dad45e !important;
   font-size: 1rem !important;
   text-shadow: -2px 0 black, 0 2px black, 4px 0 black, 0 -2px black !important;
@@ -91,15 +88,9 @@ del {
   position: relative;
 }
 
-.tecnologia {
-  text-align: center;
-}
-
-.redes {
-  text-align: center;
-}
-
-footer {
+.tecnologia,
+.redes,
+.footer {
   text-align: center;
 }
 
