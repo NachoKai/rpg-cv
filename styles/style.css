@@ -84,7 +84,12 @@ del {
   margin-bottom: 1rem;
 }
 
+.hr {
+  margin: 1rem 0 1rem 0;
+}
+
 .rpgui-container {
+  border-radius: 1rem;
   position: relative;
   -webkit-transition: ease all 0.2s;
   transition: ease all 0.2s;
