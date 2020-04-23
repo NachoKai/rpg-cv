@@ -134,6 +134,11 @@ del {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
+  transition: ease all 0.2s;
+
+  &:hover {
+    transform: scale(1.5);
+  }
 }
 
 .tecnologias {

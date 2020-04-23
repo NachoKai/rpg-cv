@@ -162,6 +162,13 @@ del {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transition: ease all 0.2s;
+  transition: ease all 0.2s;
+}
+
+.rpgui-icon:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 .tecnologias {
