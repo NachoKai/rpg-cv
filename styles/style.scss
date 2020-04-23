@@ -85,6 +85,12 @@ del {
   text-align: center;
 }
 
+.cv-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .boton {
   text-align: center;
   margin-bottom: 1rem;
@@ -146,10 +152,17 @@ del {
 }
 
 .proyecto-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background-color: #000;
+  width: 100%;
   position: relative;
   overflow: hidden;
   border: 2px solid #000;
   margin: 0.5rem;
+  max-height: 200px;
 }
 
 .proyecto-container img {
@@ -241,7 +254,7 @@ del {
 }
 #api-bar {
   .rpgui-progress-fill {
-    width: 70% !important;
+    width: 80% !important;
   }
 }
 #cypress-bar {
@@ -270,4 +283,99 @@ del {
 .proyecto-link {
   text-align: center;
   font-size: 0.6rem !important;
+}
+
+/* Media Queries */
+
+@media all and (min-width: 1024px) {
+  .container {
+    max-width: 900px;
+    max-height: 100%;
+    padding: 1rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .cv-up {
+    display: flex;
+  }
+
+  .cv-up-a,
+  .cv-up-b {
+    width: 50%;
+    order: 0;
+    flex: 1 1 auto;
+    align-self: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .title {
+    position: relative;
+    right: -200px;
+  }
+
+  .perfil {
+    margin: 7rem 0.5rem 1rem 0.5rem;
+  }
+
+  .avatar,
+  .educacion,
+  .experiencia,
+  .idiomas {
+    margin: 0.5rem;
+  }
+
+  .proyecto-container {
+    max-width: 300px;
+  }
+
+  .cv-mid {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .cv-mid-a,
+  .cv-mid-b {
+    width: 50%;
+    order: 0;
+    flex: 1 1 auto;
+    align-self: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .cv-low {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cv-low-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cv-low-b {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media all and (min-width: 768px) {
+}
+
+@media all and (min-width: 480px) {
+}
+
+@media all and (max-width: 480px) {
 }
