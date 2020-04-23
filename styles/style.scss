@@ -1,3 +1,7 @@
+* {
+  transition: ease all 0.2s;
+}
+
 html,
 body {
   background-color: #222222;
@@ -77,6 +81,11 @@ del {
 
 .rpgui-container {
   position: relative;
+
+  &:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3),
+      0 4px 6px -2px rgba(0, 0, 0, 0.3);
+  }
 }
 
 .tecnologia,
@@ -134,7 +143,6 @@ del {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  transition: ease all 0.2s;
 
   &:hover {
     transform: scale(1.5);
