@@ -1,7 +1,4 @@
-html {
-  background-color: #222222;
-}
-
+html,
 body {
   background-color: #222222;
   height: 100vh;
@@ -29,17 +26,20 @@ body {
   letter-spacing: 2px;
   text-shadow: -2px 0 black, 0 4px black, 5px 0 black, 0 -2px black !important;
 }
+
 del {
   color: #dad135 !important;
   font-size: 1rem !important;
 }
+
 .subtitle {
   text-decoration: underline;
   color: #d27d2c !important;
   font-size: 1.1rem !important;
   text-shadow: -2px 0 black, 0 2px black, 4px 0 black, 0 -2px black !important;
 }
-.subsub-title {
+
+.subtitle-b {
   color: #dad45e !important;
   font-size: 1rem !important;
   text-shadow: -2px 0 black, 0 2px black, 4px 0 black, 0 -2px black !important;
@@ -79,15 +79,9 @@ del {
   position: relative;
 }
 
-.tecnologia {
-  text-align: center;
-}
-
-.redes {
-  text-align: center;
-}
-
-footer {
+.tecnologia,
+.redes,
+.footer {
   text-align: center;
 }
 
