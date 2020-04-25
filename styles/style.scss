@@ -77,7 +77,8 @@ del {
 .hr,
 .aprendiendo,
 .tecnologias,
-.proyectos {
+.proyectos,
+.diplomas {
   margin-bottom: 1rem;
 }
 
@@ -95,7 +96,8 @@ del {
 
 .tecnologia,
 .redes,
-.footer {
+.footer,
+.diplomas {
   text-align: center;
 }
 
@@ -305,6 +307,35 @@ del {
 .proyecto-link {
   text-align: center;
   font-size: 0.6rem !important;
+}
+
+.diploma {
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.diploma-btn {
+  width: 90%;
+  max-width: 550px !important;
+}
+
+.diploma-fondo {
+  max-width: 500px !important;
+}
+
+.diploma-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.diploma-btn {
+  color: #dad45e !important;
+  font-size: 1rem !important;
+  text-shadow: -2px 0 black, 0 2px black, 4px 0 black, 0 -2px black !important;
+  line-height: 2;
 }
 
 /* Media Queries */
