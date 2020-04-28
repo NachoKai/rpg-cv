@@ -157,6 +157,24 @@ del {
   }
 }
 
+.iconos-redes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.icon-redes {
+  max-width: 64px;
+  height: auto;
+  margin: 0.2rem;
+
+  &:hover {
+    transition: all 0.2s ease;
+    transform: rotate(10deg) !important;
+  }
+}
+
 .tecnologias {
   display: flex;
   flex-direction: row;

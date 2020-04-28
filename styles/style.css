@@ -186,6 +186,33 @@ del {
           transform: scale(1.5);
 }
 
+.iconos-redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.icon-redes {
+  max-width: 64px;
+  height: auto;
+  margin: 0.2rem;
+}
+
+.icon-redes:hover {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  -webkit-transform: rotate(10deg) !important;
+          transform: rotate(10deg) !important;
+}
+
 .tecnologias {
   display: -webkit-box;
   display: -ms-flexbox;
