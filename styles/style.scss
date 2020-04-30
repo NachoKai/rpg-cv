@@ -3,6 +3,7 @@ body {
   background-color: #222222;
   height: 100vh;
   width: 100%;
+  scroll-behavior: smooth;
 }
 
 .content {
@@ -105,6 +106,7 @@ del {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .boton {
@@ -153,7 +155,7 @@ del {
   transition: ease all 0.2s;
 
   &:hover {
-    transform: scale(1.5);
+    transform: scale(1.3);
   }
 }
 
