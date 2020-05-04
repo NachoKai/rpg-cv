@@ -334,6 +334,10 @@ del {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+
+  p {
+    margin-bottom: 1rem;
+  }
 }
 
 .tienda-items {

@@ -405,6 +405,10 @@ del {
       flex-wrap: wrap;
 }
 
+.compras p {
+  margin-bottom: 1rem;
+}
+
 .tienda-items {
   display: -webkit-box;
   display: -ms-flexbox;
