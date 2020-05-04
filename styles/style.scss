@@ -269,6 +269,9 @@ del {
 
   summary {
     margin: 0.5rem 0;
+    &:hover {
+      cursor: url(../dist/img/cursor/point.png) 10 0, auto;
+    }
   }
 }
 
@@ -366,6 +369,7 @@ del {
   width: 100%;
   height: auto;
   max-width: 40px;
+  padding: 0.3rem;
 }
 
 /* Media Queries */
