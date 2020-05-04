@@ -447,6 +447,12 @@ del {
   line-height: 55px !important;
 }
 
+.corazon {
+  width: 100%;
+  height: auto;
+  max-width: 40px;
+}
+
 /* Media Queries */
 @media all and (min-width: 1024px) {
   .container {
