@@ -358,6 +358,35 @@ del {
   line-height: 2;
 }
 
+.compras {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tienda-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tienda-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 230px;
+  margin: 0.5rem;
+}
+
+.rpgui-button {
+  font-size: 0.8rem !important;
+  text-align: center !important;
+  line-height: 55px !important;
+}
+
 /* Media Queries */
 
 @media all and (min-width: 1024px) {
