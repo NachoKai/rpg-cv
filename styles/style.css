@@ -64,16 +64,6 @@ del {
   text-align: center;
 }
 
-.avatar-img:hover,
-.avatar-img:active {
-  content: url("../img/avatar-gif.gif");
-  margin: 0 auto;
-  text-align: center;
-  max-width: 424px;
-  width: 100%;
-  height: auto;
-}
-
 .hidden {
   display: none;
 }
