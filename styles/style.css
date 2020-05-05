@@ -164,6 +164,16 @@ del {
   height: auto;
 }
 
+.tabla-info {
+  width: 100%;
+  margin: 0 0 0.5rem 0;
+}
+
+.tabla-info p {
+  width: 100%;
+  margin: 0.2rem 0.5rem;
+}
+
 .rpgui-icon {
   width: 75px;
   height: 75px;
