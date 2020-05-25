@@ -352,7 +352,7 @@ del {
 }
 
 #react-bar .rpgui-progress-fill.blue {
-  width: 30% !important;
+  width: 45% !important;
 }
 
 #vue-bar .rpgui-progress-fill.green {
@@ -360,7 +360,7 @@ del {
 }
 
 #node-bar .rpgui-progress-fill {
-  width: 40% !important;
+  width: 50% !important;
 }
 
 #mongo-bar .rpgui-progress-fill {
@@ -368,7 +368,7 @@ del {
 }
 
 #api-bar .rpgui-progress-fill {
-  width: 80% !important;
+  width: 90% !important;
 }
 
 #cypress-bar .rpgui-progress-fill {
@@ -591,3 +591,4 @@ del {
             align-items: center;
   }
 }
+/*# sourceMappingURL=style.css.map */
