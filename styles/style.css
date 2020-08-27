@@ -352,11 +352,11 @@ del {
 }
 
 #react-bar .rpgui-progress-fill.blue {
-  width: 45% !important;
+  width: 65% !important;
 }
 
 #vue-bar .rpgui-progress-fill.green {
-  width: 25% !important;
+  width: 20% !important;
 }
 
 #node-bar .rpgui-progress-fill {
