@@ -269,6 +269,7 @@ del {
 
   summary {
     margin: 0.5rem 0;
+
     &:hover {
       cursor: url(../dist/img/cursor/point.png) 10 0, auto;
     }
@@ -281,32 +282,37 @@ del {
 
 #react-bar {
   .rpgui-progress-fill.blue {
-    width: 65% !important;
+    width: 80% !important;
   }
 }
+
 #vue-bar {
   .rpgui-progress-fill.green {
     width: 20% !important;
   }
 }
+
 #node-bar {
   .rpgui-progress-fill {
-    width: 50% !important;
+    width: 60% !important;
   }
 }
+
 #mongo-bar {
   .rpgui-progress-fill {
-    width: 45% !important;
+    width: 30% !important;
   }
 }
+
 #api-bar {
   .rpgui-progress-fill {
     width: 90% !important;
   }
 }
+
 #cypress-bar {
   .rpgui-progress-fill {
-    width: 35% !important;
+    width: 30% !important;
   }
 }
 
@@ -329,7 +335,7 @@ del {
 
 .proyecto-link {
   text-align: center;
-  font-size: 0.6rem !important;
+  font-size: 0.7rem !important;
 }
 
 .compras {
@@ -460,11 +466,8 @@ del {
   }
 }
 
-@media all and (min-width: 768px) {
-}
+@media all and (min-width: 768px) {}
 
-@media all and (min-width: 480px) {
-}
+@media all and (min-width: 480px) {}
 
-@media all and (max-width: 480px) {
-}
+@media all and (max-width: 480px) {}
