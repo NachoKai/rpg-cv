@@ -280,42 +280,6 @@ del {
   margin-left: 1rem;
 }
 
-#react-bar {
-  .rpgui-progress-fill.blue {
-    width: 80% !important;
-  }
-}
-
-#vue-bar {
-  .rpgui-progress-fill.green {
-    width: 20% !important;
-  }
-}
-
-#node-bar {
-  .rpgui-progress-fill {
-    width: 60% !important;
-  }
-}
-
-#mongo-bar {
-  .rpgui-progress-fill {
-    width: 30% !important;
-  }
-}
-
-#api-bar {
-  .rpgui-progress-fill {
-    width: 90% !important;
-  }
-}
-
-#cypress-bar {
-  .rpgui-progress-fill {
-    width: 30% !important;
-  }
-}
-
 .experiencia,
 .educacion {
   p {
@@ -408,10 +372,11 @@ del {
   .title {
     position: relative;
     right: -200px;
+    line-height: 1.5;
   }
 
   .perfil {
-    margin: 7rem 0.5rem 1rem 0.5rem;
+    margin: 8rem 0.5rem 1rem 0.5rem;
   }
 
   .avatar,

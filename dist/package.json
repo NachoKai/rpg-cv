@@ -3,8 +3,6 @@
   "version": "1.0.3",
   "description": "Lightweight framework for old-school RPG GUI in web!",
   "main": "",
-  "dependencies": {
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RonenNess/RPGUI.git"
@@ -14,10 +12,10 @@
   },
   "keywords": [
     "gui",
-	"rpg",
+    "rpg",
     "game",
     "interface",
-	"ui"
+    "ui"
   ],
   "bugs": {
     "url": "https://github.com/RonenNess/RPGUI/issues"
