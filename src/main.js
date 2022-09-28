@@ -16,3 +16,4 @@ const myAge = (currentYear, myYear) => {
 
 document.getElementById("age").innerText = myAge(currentYear, myYear);
 document.getElementById("year").innerText = currentYear;
+document.getElementById("exp").innerText = currentYear - 2020;
